@@ -16,7 +16,26 @@ public class App {
         {
             System.out.println(daysOfWeek[i]);
         }
+
+        System.out.println();
+
+        //While loop that prints out numbers between 1 and 20
+        int numberOne = 1;
+        while (numberOne <= 20)
+        {
+            System.out.println(numberOne);
+            numberOne++;
+        }
         
+        System.out.println();
+
+        // While loop that prints out even numbers between 1 and 20
+        int numberEven = 2;
+        while (numberEven <= 20) 
+        {
+            System.out.println(numberEven);
+            numberEven+= 2;
+        }
 
         
         
