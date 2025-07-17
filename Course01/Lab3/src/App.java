@@ -31,6 +31,17 @@ public class App {
             numberEven++;
         }
         
+        System.out.println();
+
+        // Create a for loop that will print out all numbers between 1 and 100 except 50 and 60
+        for (int i = 1; i <= 100; i++)
+        {
+            if (i >= 50 && i <= 60)
+            {
+                continue;
+            }
+            System.out.println(i);
+        }
         
     }
 }
