@@ -19,26 +19,18 @@ public class App {
 
         System.out.println();
 
-        //While loop that prints out numbers between 1 and 20
-        int numberOne = 1;
-        while (numberOne <= 20)
-        {
-            System.out.println(numberOne);
-            numberOne++;
-        }
-        
-        System.out.println();
-
-        // While loop that prints out even numbers between 1 and 20
-        int numberEven = 2;
+        // Use the continue statement and an if statement to skip printing the odd numbers (i.e. increment the counter by 1 each time through the loop).
+        int numberEven = 1;
         while (numberEven <= 20) 
         {
+            if (numberEven % 2 != 0) {
+                numberEven++;
+                continue;
+            }
             System.out.println(numberEven);
-            numberEven+= 2;
+            numberEven++;
         }
-
         
         
-
     }
 }
